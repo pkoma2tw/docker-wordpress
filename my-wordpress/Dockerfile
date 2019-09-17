@@ -7,6 +7,7 @@ RUN apt-get -y install wget unzip
 # WP プラグイン (zip) ダウンロード
 WORKDIR /tmp/wp-plugins
 RUN wget https://downloads.wordpress.org/plugin/custom-field-template.2.4.6.zip
+RUN wget https://downloads.wordpress.org/plugin/p3-profiler.1.5.3.9.zip
 #RUN wget https://downloads.wordpress.org/plugin/contact-form-7.4.6.zip
 #RUN wget https://downloads.wordpress.org/plugin/syntaxhighlighter.zip
 #RUN wget https://downloads.wordpress.org/plugin/wp-emmet.zip
